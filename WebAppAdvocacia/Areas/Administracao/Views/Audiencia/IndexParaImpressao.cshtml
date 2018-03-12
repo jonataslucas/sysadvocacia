@@ -1,0 +1,52 @@
+﻿@model PagedList.IPagedList<WebAppAdvocacia.Models.Audiencia>
+@using PagedList
+@using PagedList.Mvc
+@{
+    Layout = "~/Views/Shared/_LayoutParaImpressao.cshtml";
+}
+
+<h2>Lista de Audiências</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("ProcessoID", "Index", new { ordenacao = ViewBag.ProcessoID })
+        </th>
+        <th>
+            @Html.DisplayName("Descrição do Processo")
+        </th>
+        <th>
+            @Html.ActionLink("Data", "Index", new { ordenacao = ViewBag.Data })
+        </th>
+        <th>
+            @Html.DisplayName("Parecer")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Processo.ProcessoID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Processo.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parecer)
+            </td>
+            @*<td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.AudienciaID }, new { @class = "glyphicon glyphicon-edit" }) |
+                @Html.ActionLink("Detalhes", "Details", new { id = item.AudienciaID }, new { @class = "glyphicon glyphicon-file" }) |
+                @Html.ActionLink("Deletar", "Delete", new { id = item.AudienciaID }, new { @class = "glyphicon glyphicon-trash" })
+            </td>*@
+        </tr>
+    }
+
+</table>
+    página @Model.PageNumber de @Model.PageCount
+    @Html.PagedListPager(Model, Page => Url.Action("GerarPDF", new { pagina = Page }))

@@ -1,0 +1,64 @@
+﻿@model PagedList.IPagedList<WebAppAdvocacia.Models.Vara>
+@using PagedList
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Lista de Varas Cadastradas";
+}
+<div class="text-right"><a href="/Administracao/Vara/GerarPDF" class="btn btn-danger">Gerar Relatório em PDF</a></div>
+<h2>Lista de Varas Cadastradas</h2>
+
+<form method="get" action="/Administracao/Vara/ConsultarVara">
+    <p>
+       Digite a Descrição da Vara Para Consultar <input type="search" name="DescricaoVara" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+</form>
+
+@*@using (Html.BeginForm("ConsultarVara", "Vara", FormMethod.Get))
+{
+    <p>
+        Digite a Descrição da Vara Para Consultar <input type="search" name="DescricaoVara" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+}*@
+
+<p>
+    @Html.ActionLink("Cadastrar Novo", "Create")
+</p>
+
+@if (TempData["Mensagem"] != null)
+{
+    <p class="alert-success">@TempData["Mensagem"]</p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("DescricaoTribunal")
+        </th>
+        <th>
+            @Html.ActionLink("DescricaoVara","Index", new {ordenacao = ViewBag.DescricaoVaraParam })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tribunal.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.VaraID },new{@class="glyphicon glyphicon-edit"}) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.VaraID },new{@class="glyphicon glyphicon-file"}) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.VaraID },new{@class="glyphicon glyphicon-trash"})
+        </td>
+    </tr>
+}
+
+</table>
+página @Model.PageNumber de @Model.PageCount
+@Html.PagedListPager(Model, Page => Url.Action("Index", new {pagina = Page, ordenacao = ViewBag.OrdenacaoAtual }))

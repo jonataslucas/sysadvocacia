@@ -1,0 +1,57 @@
+﻿@model WebAppAdvocacia.Models.Custa
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+<div class="text-right"><a href="/Administracao/Custa/GerarPDFEmDetalhes/@Model.CustaID" class="btn btn-danger">Gerar Relatório em PDF</a></div>
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Custa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Processo.ProcessoID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Processo.ProcessoID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Processo.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Processo.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.CustaID }) |
+    @Html.ActionLink("Voltar Para Lista", "Index")
+</p>

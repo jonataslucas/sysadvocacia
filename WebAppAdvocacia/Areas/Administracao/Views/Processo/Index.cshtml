@@ -1,0 +1,94 @@
+﻿@model PagedList.IPagedList<WebAppAdvocacia.Models.Processo>
+@using PagedList
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Lista de Processos Cadastrados";
+}
+<div class="text-right"><a href="/Administracao/Processo/GerarPDF" class="btn btn-danger">Gerar Relatório em PDF</a></div>
+<h2>Lista de Processos Cadastrados</h2>
+
+<form method="get" action="/Administracao/Processo/ConsultarProcesso">
+    <p>
+       Digite o Numero do Processo Para Consultar o Processo <input type="search" name="NumeroProcesso" />
+        <input type="submit" value="Pesquisar" /> 
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+</form>
+
+@*@using (Html.BeginForm("ConsultarProcesso", "Processo", FormMethod.Get))
+{
+    <p>
+        Digite o Numero do Processo Para Consultar o Processo <input type="search" name="NumeroProcesso" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+}*@
+
+<p>
+    @Html.ActionLink("Cadastrar Novo", "Create")
+</p>
+
+@if (TempData["Mensagem"] != null)
+{
+    <p class="alert-success">@TempData["Mensagem"]</p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Nome")
+        </th>
+        <th>
+            @Html.DisplayName("Descrição do processo")
+        </th>
+        <th>
+            @Html.DisplayName("Descricao da Vara")
+        </th>
+        <th>
+            @Html.DisplayName("Numero do Processo")
+        </th>
+        <th>
+            @Html.ActionLink("DataAbertura","Index", new {ordenacao = ViewBag.DataAberturaParam })
+        </th>
+        <th>
+            @Html.DisplayName("DataConclusao")
+        </th>
+        <th>
+            @Html.ActionLink("Situacao","Index", new {ordenacao = ViewBag.SituacaoParam })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pessoa.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vara.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroProcesso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataAbertura)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataConclusao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Situacao)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.ProcessoID },new{@class="glyphicon glyphicon-edit"}) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.ProcessoID },new{@class="glyphicon glyphicon-file"}) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.ProcessoID },new{@class="glyphicon glyphicon-trash"})
+        </td>
+    </tr>
+}
+
+</table>
+página @Model.PageNumber de @Model.PageCount
+@Html.PagedListPager(Model, Page => Url.Action("Index", new { pagina = Page, ordenacao = ViewBag.OrdenacaoAtual }))

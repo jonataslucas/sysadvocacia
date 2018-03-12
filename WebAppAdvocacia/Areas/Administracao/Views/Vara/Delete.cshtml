@@ -1,0 +1,40 @@
+﻿@model WebAppAdvocacia.Models.Vara
+
+@{
+    ViewBag.Title = "Deletar";
+}
+
+<h2>Deletar</h2>
+
+<h3>Você Tem Certeza Que Deseja Deletar Isto?</h3>
+<div>
+    <h4>Vara</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tribunal.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tribunal.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar Para Lista", "Index")
+        </div>
+    }
+</div>

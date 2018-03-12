@@ -1,0 +1,37 @@
+﻿@model WebAppAdvocacia.Models.Vara
+
+@{
+    Layout = "~/Views/Shared/_LayoutParaImpressao.cshtml";
+}
+
+<h2>Vara</h2>
+
+<div>
+    @*<h4>Vara</h4>*@
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("DescricaoTribunal")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tribunal.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("DescricaoVara")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+    </dl>
+</div>
+
+
+
+@*<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.PessoaID }) |
+    @Html.ActionLink("Voltar Para Lista", "Index")
+</p>*@

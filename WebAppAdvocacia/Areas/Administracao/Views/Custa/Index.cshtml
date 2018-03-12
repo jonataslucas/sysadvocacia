@@ -1,0 +1,86 @@
+﻿@model PagedList.IPagedList<WebAppAdvocacia.Models.Custa>
+@using PagedList
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Lista de Custas Cadastradas";
+}
+<div class="text-right"><a href="/Administracao/Custa/GerarPDF" class="btn btn-danger">Gerar Relatório em PDF</a></div>
+<h2>Lista de Custas Cadastradas</h2>
+
+<form method="get" action="/Administracao/Custa/VisualizarCustas">
+    <p>
+        Digite o Numero do Processo Para Visualizar Suas Custas <input type="search" name="NumeroProcesso" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+</form>
+
+@*@using (Html.BeginForm("VisualizarCustas", "Custa", FormMethod.Get))
+{
+    <p>
+        Digite o Numero do Processo Para Visualizar Suas Audiencias <input type="search" name="NumeroProcesso" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+}*@
+
+<p>
+    @Html.ActionLink("Cadastrar Novo", "Create")
+</p>
+
+@if (TempData["Mensagem"] != null)
+{
+    <p class="alert-success">@TempData["Mensagem"]</p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("ProcessoID")
+        </th>
+
+        <th>
+            @Html.DisplayName("Descrição do Processo")
+        </th>
+
+        <th>
+            @Html.ActionLink("Data","Index", new {ordenacao = ViewBag.DataParam })
+        </th>
+        <th>
+            @Html.ActionLink("Descricao","Index", new {ordenacao = ViewBag.DescricaoParam })
+        </th>
+        <th>
+            @Html.DisplayName("Valor")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Processo.ProcessoID)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Processo.Descricao)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Data)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Valor)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.CustaID },new {@class="glyphicon glyphicon-edit"}) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.CustaID },new {@class="glyphicon glyphicon-file"}) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.CustaID },new {@class="glyphicon glyphicon-trash"})
+        </td>
+    </tr>
+}
+
+</table>
+página @Model.PageNumber de @Model.PageCount
+@Html.PagedListPager(Model, Page => Url.Action("Index", new {pagina = Page, ordenação = ViewBag.OrdenacaoAtual }))

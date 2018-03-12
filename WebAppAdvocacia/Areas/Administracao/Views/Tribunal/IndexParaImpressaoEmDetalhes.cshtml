@@ -1,0 +1,37 @@
+﻿@model WebAppAdvocacia.Models.Tribunal
+
+@{
+    Layout = "~/Views/Shared/_LayoutParaImpressao.cshtml";
+}
+
+<h2>Tribunal</h2>
+
+<div>
+    @*<h4>Tribunal</h4>*@
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+
+    </dl>
+</div>
+
+
+
+@*<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.PessoaID }) |
+    @Html.ActionLink("Voltar Para Lista", "Index")
+</p>*@

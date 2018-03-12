@@ -1,0 +1,40 @@
+﻿@model PagedList.IPagedList<WebAppAdvocacia.Models.Vara>
+@using PagedList
+@using PagedList.Mvc
+@{
+    Layout = "~/Views/Shared/_LayoutParaImpressao.cshtml";
+}
+
+<h2>Lista de Varas</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("DescricaoTribunal")
+        </th>
+        <th>
+            @Html.ActionLink("DescricaoVara", "Index", new { ordenacao = ViewBag.DescricaoVaraParam })
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tribunal.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            @*<td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.VaraID }, new { @class = "glyphicon glyphicon-edit" }) |
+                @Html.ActionLink("Detalhes", "Details", new { id = item.VaraID }, new { @class = "glyphicon glyphicon-file" }) |
+                @Html.ActionLink("Deletar", "Delete", new { id = item.VaraID }, new { @class = "glyphicon glyphicon-trash" })
+            </td>*@
+        </tr>
+    }
+
+</table>
+    página @Model.PageNumber de @Model.PageCount
+    @Html.PagedListPager(Model, Page => Url.Action("GerarPDF", new { pagina = Page }))
