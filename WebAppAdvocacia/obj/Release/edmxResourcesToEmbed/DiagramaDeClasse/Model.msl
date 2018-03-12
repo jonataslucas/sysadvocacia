@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CodeFirstDatabase" CdmEntityContainer="ContextoEF">
+    <EntitySetMapping Name="Audiencias">
+      <EntityTypeMapping TypeName="WebAppAdvocacia.Models.Audiencia">
+        <MappingFragment StoreEntitySet="Audiencia">
+          <ScalarProperty Name="AudienciaID" ColumnName="AudienciaID" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Parecer" ColumnName="Parecer" />
+          <ScalarProperty Name="ProcessoID" ColumnName="ProcessoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Processos">
+      <EntityTypeMapping TypeName="WebAppAdvocacia.Models.Processo">
+        <MappingFragment StoreEntitySet="Processo">
+          <ScalarProperty Name="ProcessoID" ColumnName="ProcessoID" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="NumeroProcesso" ColumnName="NumeroProcesso" />
+          <ScalarProperty Name="DataAbertura" ColumnName="DataAbertura" />
+          <ScalarProperty Name="DataConclusao" ColumnName="DataConclusao" />
+          <ScalarProperty Name="Situacao" ColumnName="Situacao" />
+          <ScalarProperty Name="PessoaID" ColumnName="PessoaID" />
+          <ScalarProperty Name="VaraID" ColumnName="VaraID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Custas">
+      <EntityTypeMapping TypeName="WebAppAdvocacia.Models.Custa">
+        <MappingFragment StoreEntitySet="Custa">
+          <ScalarProperty Name="CustaID" ColumnName="CustaID" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="ProcessoID" ColumnName="ProcessoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoas">
+      <EntityTypeMapping TypeName="IsTypeOf(WebAppAdvocacia.Models.Pessoa)">
+        <MappingFragment StoreEntitySet="Pessoa">
+          <ScalarProperty Name="PessoaID" ColumnName="PessoaID" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="WebAppAdvocacia.Models.PessoaFisica">
+        <MappingFragment StoreEntitySet="PessoaFisica">
+          <ScalarProperty Name="PessoaID" ColumnName="PessoaID" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="RG" ColumnName="RG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="WebAppAdvocacia.Models.PessoaJuridica">
+        <MappingFragment StoreEntitySet="PessoaJuridica">
+          <ScalarProperty Name="PessoaID" ColumnName="PessoaID" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Varas">
+      <EntityTypeMapping TypeName="WebAppAdvocacia.Models.Vara">
+        <MappingFragment StoreEntitySet="Vara">
+          <ScalarProperty Name="VaraID" ColumnName="VaraID" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="TribunalID" ColumnName="TribunalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tribunais">
+      <EntityTypeMapping TypeName="WebAppAdvocacia.Models.Tribunal">
+        <MappingFragment StoreEntitySet="Tribunal">
+          <ScalarProperty Name="TribunalID" ColumnName="TribunalID" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

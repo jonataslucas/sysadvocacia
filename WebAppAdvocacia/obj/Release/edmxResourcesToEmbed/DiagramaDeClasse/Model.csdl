@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebAppAdvocacia.Models" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Audiencia" customannotation:ClrType="WebAppAdvocacia.Models.Audiencia, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Key>
+      <PropertyRef Name="AudienciaID" />
+    </Key>
+    <Property Name="AudienciaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Data" Type="DateTime" Nullable="false" />
+    <Property Name="Parecer" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProcessoID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Processo" Relationship="Self.Processo_Audiencias" FromRole="Processo_Audiencias_Target" ToRole="Processo_Audiencias_Source" />
+  </EntityType>
+  <EntityType Name="Processo" customannotation:ClrType="WebAppAdvocacia.Models.Processo, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Key>
+      <PropertyRef Name="ProcessoID" />
+    </Key>
+    <Property Name="ProcessoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NumeroProcesso" Type="Int32" Nullable="false" />
+    <Property Name="DataAbertura" Type="DateTime" Nullable="false" />
+    <Property Name="DataConclusao" Type="DateTime" Nullable="false" />
+    <Property Name="Situacao" Type="Self.TipoSituacao" Nullable="false" />
+    <Property Name="PessoaID" Type="Int32" Nullable="false" />
+    <Property Name="VaraID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Audiencias" Relationship="Self.Processo_Audiencias" FromRole="Processo_Audiencias_Source" ToRole="Processo_Audiencias_Target" />
+    <NavigationProperty Name="Custas" Relationship="Self.Custa_Processo" FromRole="Custa_Processo_Target" ToRole="Custa_Processo_Source" />
+    <NavigationProperty Name="Pessoa" Relationship="Self.Pessoa_Processos" FromRole="Pessoa_Processos_Target" ToRole="Pessoa_Processos_Source" />
+    <NavigationProperty Name="Vara" Relationship="Self.Vara_Processos" FromRole="Vara_Processos_Target" ToRole="Vara_Processos_Source" />
+  </EntityType>
+  <EntityType Name="Custa" customannotation:ClrType="WebAppAdvocacia.Models.Custa, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Key>
+      <PropertyRef Name="CustaID" />
+    </Key>
+    <Property Name="CustaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Data" Type="DateTime" Nullable="false" />
+    <Property Name="Descricao" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Valor" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="ProcessoID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Processo" Relationship="Self.Custa_Processo" FromRole="Custa_Processo_Source" ToRole="Custa_Processo_Target" />
+  </EntityType>
+  <EntityType Name="Pessoa" customannotation:ClrType="WebAppAdvocacia.Models.Pessoa, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Key>
+      <PropertyRef Name="PessoaID" />
+    </Key>
+    <Property Name="PessoaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Endereco" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Telefone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CEP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Bairro" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Cidade" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UF" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Processos" Relationship="Self.Pessoa_Processos" FromRole="Pessoa_Processos_Source" ToRole="Pessoa_Processos_Target" />
+  </EntityType>
+  <EntityType Name="PessoaFisica" customannotation:ClrType="WebAppAdvocacia.Models.PessoaFisica, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" BaseType="Self.Pessoa">
+    <Property Name="CPF" Type="String" MaxLength="14" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RG" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PessoaJuridica" customannotation:ClrType="WebAppAdvocacia.Models.PessoaJuridica, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" BaseType="Self.Pessoa">
+    <Property Name="CNPJ" Type="String" MaxLength="18" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vara" customannotation:ClrType="WebAppAdvocacia.Models.Vara, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Key>
+      <PropertyRef Name="VaraID" />
+    </Key>
+    <Property Name="VaraID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TribunalID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Processos" Relationship="Self.Vara_Processos" FromRole="Vara_Processos_Source" ToRole="Vara_Processos_Target" />
+    <NavigationProperty Name="Tribunal" Relationship="Self.Tribunal_Varas" FromRole="Tribunal_Varas_Target" ToRole="Tribunal_Varas_Source" />
+  </EntityType>
+  <EntityType Name="Tribunal" customannotation:ClrType="WebAppAdvocacia.Models.Tribunal, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Key>
+      <PropertyRef Name="TribunalID" />
+    </Key>
+    <Property Name="TribunalID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Endereco" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Varas" Relationship="Self.Tribunal_Varas" FromRole="Tribunal_Varas_Source" ToRole="Tribunal_Varas_Target" />
+  </EntityType>
+  <EnumType Name="TipoSituacao" IsFlags="false" customannotation:ClrType="WebAppAdvocacia.Models.TipoSituacao, WebAppAdvocacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" UnderlyingType="Int32">
+    <Member Name="Andamento" Value="1" />
+    <Member Name="Finalizado" Value="2" />
+  </EnumType>
+  <Association Name="Processo_Audiencias">
+    <End Role="Processo_Audiencias_Source" Type="Self.Processo" Multiplicity="1" />
+    <End Role="Processo_Audiencias_Target" Type="Self.Audiencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Processo_Audiencias_Source">
+        <PropertyRef Name="ProcessoID" />
+      </Principal>
+      <Dependent Role="Processo_Audiencias_Target">
+        <PropertyRef Name="ProcessoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Custa_Processo">
+    <End Role="Custa_Processo_Source" Type="Self.Custa" Multiplicity="*" />
+    <End Role="Custa_Processo_Target" Type="Self.Processo" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Custa_Processo_Target">
+        <PropertyRef Name="ProcessoID" />
+      </Principal>
+      <Dependent Role="Custa_Processo_Source">
+        <PropertyRef Name="ProcessoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Pessoa_Processos">
+    <End Role="Pessoa_Processos_Source" Type="Self.Pessoa" Multiplicity="1" />
+    <End Role="Pessoa_Processos_Target" Type="Self.Processo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pessoa_Processos_Source">
+        <PropertyRef Name="PessoaID" />
+      </Principal>
+      <Dependent Role="Pessoa_Processos_Target">
+        <PropertyRef Name="PessoaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Vara_Processos">
+    <End Role="Vara_Processos_Source" Type="Self.Vara" Multiplicity="1" />
+    <End Role="Vara_Processos_Target" Type="Self.Processo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vara_Processos_Source">
+        <PropertyRef Name="VaraID" />
+      </Principal>
+      <Dependent Role="Vara_Processos_Target">
+        <PropertyRef Name="VaraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Tribunal_Varas">
+    <End Role="Tribunal_Varas_Source" Type="Self.Tribunal" Multiplicity="1" />
+    <End Role="Tribunal_Varas_Target" Type="Self.Vara" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tribunal_Varas_Source">
+        <PropertyRef Name="TribunalID" />
+      </Principal>
+      <Dependent Role="Tribunal_Varas_Target">
+        <PropertyRef Name="TribunalID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ContextoEF" customannotation:UseClrTypes="true">
+    <EntitySet Name="Audiencias" EntityType="Self.Audiencia" />
+    <EntitySet Name="Processos" EntityType="Self.Processo" />
+    <EntitySet Name="Custas" EntityType="Self.Custa" />
+    <EntitySet Name="Pessoas" EntityType="Self.Pessoa" />
+    <EntitySet Name="Varas" EntityType="Self.Vara" />
+    <EntitySet Name="Tribunais" EntityType="Self.Tribunal" />
+    <AssociationSet Name="Processo_Audiencias" Association="Self.Processo_Audiencias">
+      <End Role="Processo_Audiencias_Source" EntitySet="Processos" />
+      <End Role="Processo_Audiencias_Target" EntitySet="Audiencias" />
+    </AssociationSet>
+    <AssociationSet Name="Custa_Processo" Association="Self.Custa_Processo">
+      <End Role="Custa_Processo_Source" EntitySet="Custas" />
+      <End Role="Custa_Processo_Target" EntitySet="Processos" />
+    </AssociationSet>
+    <AssociationSet Name="Pessoa_Processos" Association="Self.Pessoa_Processos">
+      <End Role="Pessoa_Processos_Source" EntitySet="Pessoas" />
+      <End Role="Pessoa_Processos_Target" EntitySet="Processos" />
+    </AssociationSet>
+    <AssociationSet Name="Vara_Processos" Association="Self.Vara_Processos">
+      <End Role="Vara_Processos_Source" EntitySet="Varas" />
+      <End Role="Vara_Processos_Target" EntitySet="Processos" />
+    </AssociationSet>
+    <AssociationSet Name="Tribunal_Varas" Association="Self.Tribunal_Varas">
+      <End Role="Tribunal_Varas_Source" EntitySet="Tribunais" />
+      <End Role="Tribunal_Varas_Target" EntitySet="Varas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

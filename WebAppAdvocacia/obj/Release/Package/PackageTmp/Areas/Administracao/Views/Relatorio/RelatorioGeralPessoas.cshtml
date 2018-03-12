@@ -1,0 +1,73 @@
+﻿@model IEnumerable<WebAppAdvocacia.Models.ViewModels.RelatorioGeralPessoasViewModel>
+
+@{
+    ViewBag.Title = "RelatorioGeralPessoas";
+}
+
+<h2>Relatorio Geral de Pessoas</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PessoaID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PessoaNome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PessoaBairro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PessoaEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProcessoDescricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProcessoDataAbertura)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProcessoDataConclusao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AudienciaData)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AudienciaParecer)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PessoaID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PessoaNome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PessoaBairro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PessoaEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProcessoDescricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProcessoDataAbertura)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProcessoDataConclusao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AudienciaData)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AudienciaParecer)
+        </td>
+    </tr>
+}
+
+</table>

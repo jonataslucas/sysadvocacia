@@ -1,0 +1,112 @@
+﻿@model PagedList.IPagedList<WebAppAdvocacia.Models.PessoaFisica>
+@using PagedList
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Lista de Pessoas Fisicas";
+}
+<div class="text-right"><a href="/Administracao/PessoaFisica/GerarPDF" class="btn btn-danger">Gerar Relatório em PDF</a></div>
+<h2>Lista de Pessoas Fisicas</h2>
+
+<form method="get" action="/Administracao/PessoaFisica/ConsultarPessoaFisica">
+    <p>
+       Digite o Nome da Pessoa Fisica Para Consultar <input type="search" name="Nome" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+</form>
+
+@*@using (Html.BeginForm("ConsultarPessoaFisica", "PessoaFisica", FormMethod.Get))
+{
+    <p>
+        Digite o Nome da Pessoa Fisica Para Consultar <input type="search" name="Nome" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+}*@
+
+<p>
+    @Html.ActionLink("Cadastrar Novo", "Create")
+</p>
+
+@if (TempData["Mensagem"] != null)
+{
+    <p class="alert-success">@TempData["Mensagem"]</p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Nome", "Index", new { ordenacao = ViewBag.NomeParam })
+        </th>
+        <th>
+            @Html.ActionLink("Endereco", "Index", new { ordenacao = ViewBag.EnderecoParam })
+        </th>
+        <th>
+            @Html.DisplayName("Telefone")
+        </th>
+        <th>
+            @Html.DisplayName("CEP")
+        </th>
+        <th>
+            @Html.DisplayName("Bairro")
+        </th>
+        <th>
+            @Html.DisplayName("Cidade")
+        </th>
+        <th>
+            @Html.DisplayName("UF")
+        </th>
+        <th>
+            @Html.DisplayName("Email")
+        </th>
+        <th>
+            @Html.DisplayName("CPF")
+        </th>
+        <th>
+            @Html.DisplayName("RG")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Endereco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CEP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Bairro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cidade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RG)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.PessoaID },new{@class = "glyphicon glyphicon-edit" }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.PessoaID },new{@class = "glyphicon glyphicon-file" }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.PessoaID },new{@class = "glyphicon glyphicon-trash" })
+        </td>
+    </tr>
+}
+
+</table>
+página @Model.PageNumber de @Model.PageCount
+@Html.PagedListPager(Model, Page => Url.Action("Index", new { pagina = Page, ordenacao = ViewBag.OrdenacaoAtual }))

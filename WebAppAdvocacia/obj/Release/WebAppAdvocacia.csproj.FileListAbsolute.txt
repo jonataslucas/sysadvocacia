@@ -1,0 +1,280 @@
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\ApplicationInsights.config
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\csc.exe
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\System.Collections.Immutable.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\System.Reflection.Metadata.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\vbc.exe
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\VBCSCompiler.exe
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\VBCSCompiler.exe.config
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.dll.config
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.pdb
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Antlr3.Runtime.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.SqlServer.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Agent.Intercept.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.DependencyCollector.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Web.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.WindowsServer.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.ApplicationInsights.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Core.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Cookies.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Facebook.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Google.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.OAuth.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Twitter.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Web.Infrastructure.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Newtonsoft.Json.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Owin.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.Mvc.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Rotativa.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Net.Http.Formatting.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Helpers.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.WebHost.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Mvc.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Optimization.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Razor.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Deployment.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Razor.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebGrease.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.DependencyCollector.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Web.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.WindowsServer.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.ApplicationInsights.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.Mvc.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Helpers.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Mvc.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Optimization.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Razor.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Deployment.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Razor.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Antlr3.Runtime.pdb
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Newtonsoft.Json.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Net.Http.Formatting.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.WebHost.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.SqlServer.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Core.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Facebook.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Cookies.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.OAuth.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Google.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Twitter.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.dll
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.pdb
+D:\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.csprojResolveAssemblyReference.cache
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\ApplicationInsights.config
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\csc.exe
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\System.Collections.Immutable.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\System.Reflection.Metadata.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\vbc.exe
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\VBCSCompiler.exe
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\VBCSCompiler.exe.config
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.dll.config
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.pdb
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Antlr3.Runtime.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.SqlServer.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.DependencyCollector.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Web.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.WindowsServer.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.ApplicationInsights.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Google.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Web.Infrastructure.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Newtonsoft.Json.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Owin.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.Mvc.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Rotativa.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Net.Http.Formatting.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Helpers.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.WebHost.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Mvc.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Optimization.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Razor.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Deployment.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Razor.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebGrease.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.DependencyCollector.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Web.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.WindowsServer.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.ApplicationInsights.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.Mvc.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Helpers.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Mvc.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Optimization.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Razor.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Deployment.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Razor.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Antlr3.Runtime.pdb
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Newtonsoft.Json.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Net.Http.Formatting.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.WebHost.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.SqlServer.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Google.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.csprojResolveAssemblyReference.cache
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.dll
+G:\Relevante\becap\programas c#\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.pdb
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\ApplicationInsights.config
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\csc.exe
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\vbc.exe
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.dll.config
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebAppAdvocacia.pdb
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Antlr3.Runtime.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.SqlServer.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Web.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Newtonsoft.Json.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Owin.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.Mvc.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Rotativa.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Net.Http.Formatting.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Helpers.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.WebHost.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Mvc.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Optimization.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Razor.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\WebGrease.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.Web.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\PagedList.Mvc.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Helpers.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Mvc.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Optimization.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Razor.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Antlr3.Runtime.pdb
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Newtonsoft.Json.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Net.Http.Formatting.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\System.Web.Http.WebHost.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\EntityFramework.SqlServer.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.csprojResolveAssemblyReference.cache
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.dll
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\obj\Release\WebAppAdvocacia.pdb
+C:\Users\Jonatas\Downloads\importante\Projeto de Conclusao Refeito\WebAppAdvocacia\bin\JWT.dll

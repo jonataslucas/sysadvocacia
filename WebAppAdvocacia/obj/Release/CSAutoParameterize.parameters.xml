@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ContextoEF-Web.config Connection String" description="ContextoEF Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\bdadvocacia.mdf;Initial Catalog=bdadvocacia;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jonatas\\Downloads\\importante\\Projeto\ de\ Conclusao\ Refeito\\WebAppAdvocacia\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ContextoEF']/@connectionString" />
+  </parameter>
+</parameters>

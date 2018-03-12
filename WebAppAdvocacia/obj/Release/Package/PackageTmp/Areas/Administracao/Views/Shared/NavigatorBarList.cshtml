@@ -1,0 +1,208 @@
+﻿<ul class="nav nav-list">
+
+       @if (User.IsInRole("Administrador"))
+   {
+    <li class="">
+        <a href="@Url.Action("Index", "Home")">
+            <i class="menu-icon fa fa-pencil"></i>
+            <span class="menu-text"> Home </span>
+        </a>
+
+        <b class="arrow"></b>
+    </li>
+
+
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon fa fa-list"></i>
+            <span class="menu-text"> Perfis de Usuario </span>
+
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+
+        <b class="arrow"></b>
+
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.Action("Index", "Role")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Listar Perfis
+                </a>
+
+                <b class="arrow"></b>
+            </li>
+
+            <li class="">
+                <a href="@Url.Action("Create", "Role")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Criar Perfil
+                </a>
+
+                <b class="arrow"></b>
+            </li>
+
+            <li class="">
+                <a href="@Url.Action("Register", "Account")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Registrar Usuario
+                </a>
+
+                <b class="arrow"></b>
+            </li>
+
+        </ul>
+    </li>
+
+           //
+
+
+
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon fa fa-list"></i>
+            <span class="menu-text"> Pessoas </span>
+
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+
+        <b class="arrow"></b>
+
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.Action("Index", "PessoaFisica")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Física
+                </a>
+
+                <b class="arrow"></b>
+            </li>
+
+            <li class="">
+                <a href="@Url.Action("Index", "PessoaJuridica")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Jurídica
+                </a>
+
+                <b class="arrow"></b>
+            </li>
+        </ul>
+    </li>
+
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon fa fa-pencil-square-o"></i>
+            <span class="menu-text"> Processos </span>
+
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+
+        <b class="arrow"></b>
+
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.Action("Index", "Processo")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Listar
+                </a>
+
+                <b class="arrow"></b>
+            </li>
+        </ul>
+    </li>
+    
+    }
+@if (User.IsInRole("Administrador"))
+{
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon fa fa-pencil-square-o"></i>
+            <span class="menu-text"> Varas </span>
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+        <b class="arrow"></b>
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.Action("Index", "Vara")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Listar
+                </a>
+                <b class="arrow"></b>
+            </li>
+        </ul>
+    </li>
+}
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon fa fa-pencil-square-o"></i>
+            <span class="menu-text"> Tribunais </span>
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+        <b class="arrow"></b>
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.Action("Index", "Tribunal")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Listar
+                </a>
+                <b class="arrow"></b>
+            </li>
+        </ul>
+    </li>
+
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon fa fa-pencil-square-o"></i>
+            <span class="menu-text"> Audiencia </span>
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+        <b class="arrow"></b>
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.Action("Index", "Audiencia")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Listar
+                </a>
+                <b class="arrow"></b>
+            </li>
+        </ul>
+    </li>
+    @if (User.IsInRole("Administrador"))
+    {
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon fa fa-pencil-square-o"></i>
+            <span class="menu-text"> Custa </span>
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+        <b class="arrow"></b>
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.Action("Index", "Custa")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Listar
+                </a>
+                <b class="arrow"></b>
+            </li>
+        </ul>
+    </li>
+    }
+    
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon fa fa-pencil-square-o"></i>
+            <span class="menu-text"> Relatorio </span>
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+        <b class="arrow"></b>
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.Action("RelatorioGeralPessoas", "Relatorio")">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Listar
+                </a>
+                <b class="arrow"></b>
+            </li>
+        </ul>
+    </li>
+    
+</ul><!-- /.nav-list -->

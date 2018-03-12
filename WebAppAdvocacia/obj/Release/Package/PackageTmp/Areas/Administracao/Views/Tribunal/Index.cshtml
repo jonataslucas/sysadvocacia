@@ -1,0 +1,64 @@
+﻿@model PagedList.IPagedList<WebAppAdvocacia.Models.Tribunal>
+@using PagedList
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Lista de Tribunais Cadastrados";
+}
+<div class="text-right"><a href="/Administracao/Tribunal/GerarPDF" class="btn btn-danger">Gerar Relatório em PDF</a></div>
+<h2>Lista de Tribunais Cadastrados</h2>
+
+<form method="get" action="/Administracao/Tribunal/ConsultarTribunal">
+    <p>
+       Digite a Descrição do Tribunal Para Consultar <input type="search" name="DescricaoTribunal" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+</form>
+
+@*@using (Html.BeginForm("ConsultarTribunal", "Tribunal", FormMethod.Get))
+{
+    <p>
+        Digite a Descrição do Tribunal Para Consultar <input type="search" name="DescricaoTribunal" />
+        <input type="submit" value="Pesquisar" />
+        <input type="submit" value="Mostrar Todos" />
+    </p>
+}*@
+<p>
+    @Html.ActionLink("Cadastrar Novo", "Create")
+</p>
+
+@if(TempData["Mensagem"]!=null)
+{
+    <p class="alert-success">@TempData["Mensagem"]</p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Descricao", "Index", new {ordenacao = ViewBag.DescricaoTribunalParam })
+        </th>
+        <th>
+            @Html.ActionLink("Endereco", "Index", new {ordenacao = ViewBag.EnderecoTribunalParam })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Endereco)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.TribunalID },new{@class="glyphicon glyphicon-edit"}) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.TribunalID },new {@class="glyphicon glyphicon-file"}) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.TribunalID },new {@class="glyphicon glyphicon-trash"})
+        </td>
+    </tr>
+}
+
+</table>
+página @Model.PageNumber de @Model.PageCount
+@Html.PagedListPager(Model, Page => Url.Action("Index",new {pagina = Page, ordenacao = ViewBag.OrdenacaoAtual }))

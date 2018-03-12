@@ -1,0 +1,78 @@
+﻿@model WebAppAdvocacia.Models.Processo
+
+@{
+    Layout = "~/Views/Shared/_LayoutParaImpressao.cshtml";
+}
+
+<h2>Processo</h2>
+
+<div>
+    @*<h4>Processo</h4>*@
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pessoa.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pessoa.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Descricao da Vara")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vara.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroProcesso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroProcesso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataAbertura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataAbertura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataConclusao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataConclusao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Situacao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Situacao)
+        </dd>
+
+    </dl>
+</div>
+
+
+
+@*<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.PessoaID }) |
+    @Html.ActionLink("Voltar Para Lista", "Index")
+</p>*@

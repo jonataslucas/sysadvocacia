@@ -1,0 +1,74 @@
+﻿@model PagedList.IPagedList<WebAppAdvocacia.Models.Processo>
+@using PagedList
+@using PagedList.Mvc
+@{
+    Layout = "~/Views/Shared/_LayoutParaImpressao.cshtml";
+}
+
+<h2>Lista de Eventos</h2>
+
+<table class="table">
+    <tr>
+        <th>
+             @Html.DisplayName("Nome")
+        </th>
+        <th>
+             @Html.DisplayName("Descricao da Vara")
+        </th>
+        <th>
+             @Html.DisplayName("Descricao do Processo")
+        </th>
+        <th>
+              @Html.DisplayName("NumeroProcesso")
+        </th>
+        <th>
+            @Html.ActionLink("DataAbertura", "Index", new { ordenacao = ViewBag.DataAberturaParam })
+        </th>
+        <th>
+             @Html.DisplayName("DataConclusao")
+        </th>
+        <th>
+            @Html.ActionLink("Situacao", "Index", new { ordenacao = ViewBag.SituacaoParam })
+        </th>
+        <th></th>
+    </tr>
+
+
+    @*<div class="jumbotron">*@
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pessoa.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vara.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroProcesso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataAbertura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataConclusao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Situacao)
+            </td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.ProcessoID }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.ProcessoID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ProcessoID })
+                </td>*@
+        </tr>
+    }
+
+    </table>
+    página @Model.PageNumber de @Model.PageCount
+    @Html.PagedListPager(Model, Page => Url.Action("GerarPDF", new { pagina = Page }))
